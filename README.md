@@ -1,5 +1,5 @@
-# Acosta & Johnson & Gould et al.
 # Multiplexed in vivo base editing defines functional gene-variant-context interactions
+## Acosta & Johnson & Gould et al.
 
 Code for the generation of all figures associated with "Multiplexed in vivo base editing defines functional gene-variant-context interactions".
 
