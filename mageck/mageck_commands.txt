@@ -1,0 +1,27 @@
+#mageck commands
+
+
+source activate mageckenv
+
+#first ABE samples
+mageck test -k ABE_bc_counts.txt -t d5_rep1,d5_rep2,d5_rep3	-c input_rep1,input_rep2,input_rep3 --normcounts-to-file -n ABE_d5_input
+
+mageck test -k ABE_bc_counts.txt -t d15_rep1,d15_rep2,d15_rep3	-c input_rep1,input_rep2,input_rep3 --normcounts-to-file -n ABE_d15_input
+
+mageck test -k ABE_bc_counts.txt -t spleen1,spleen2,spleen3,spleen4	-c input_rep1,input_rep2,input_rep3 --normcounts-to-file -n ABE_spleen_input
+
+mageck test -k ABE_bc_counts.txt -t bonemarrow1,bonemarrow2,bonemarrow3,bonemarrow4,bonemarrow5	-c input_rep1,input_rep2,input_rep3 --normcounts-to-file -n ABE_bonemarrow_input
+
+mageck test -k ABE_bc_counts.txt -t meninges1,meninges2,meninges3,meninges4,meninges5 -c input_rep1,input_rep2,input_rep3 --normcounts-to-file -n ABE_meninges_input
+
+
+#and CBE samples
+mageck test -k CBE_bc_counts.txt -t d5_rep1,d5_rep2,d5_rep3	-c input_rep1,input_rep2,input_rep3 --normcounts-to-file -n CBE_d5_input
+
+mageck test -k CBE_bc_counts.txt -t d15_rep1,d15_rep2,d15_rep3	-c input_rep1,input_rep2,input_rep3 --normcounts-to-file -n CBE_d15_input
+
+mageck test -k CBE_bc_counts.txt -t spleen1,spleen2,spleen3,spleen4,spleen5,spleen6,spleen7,spleen8,spleen9	-c input_rep1,input_rep2,input_rep3 --normcounts-to-file -n CBE_spleen_input
+
+mageck test -k CBE_bc_counts.txt -t bonemarrow1,bonemarrow2,bonemarrow3,bonemarrow4,bonemarrow5,bonemarrow6,bonemarrow7,bonemarrow8,bonemarrow9,bonemarrow10 -c input_rep1,input_rep2,input_rep3 --normcounts-to-file -n CBE_bonemarrow_input
+
+mageck test -k CBE_bc_counts.txt -t meninges1,meninges2,meninges3,meninges4,meninges5,meninges6,meninges7,meninges8,meninges9,meninges10 -c input_rep1,input_rep2,input_rep3 --normcounts-to-file -n CBE_meninges_input

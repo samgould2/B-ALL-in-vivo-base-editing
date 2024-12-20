@@ -1,0 +1,11 @@
+classification,count
+good quality,801043.0
+low_qual_r1,1489.0
+low_qual_r2,21759.0
+low_qual_r12,4187.0
+no_match_bc,42205.0
+bc_identified,758838.0
+proto_identified_perfect,590729.0
+proto_identified_imperfect,17918.0
+proto_identified_recombined,135036.0
+no_match_proto,15155.0
