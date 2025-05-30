@@ -19,6 +19,7 @@ There are two additional jupyter notebooks present in this repository.
 - **MBESv2_library_generation.ipynb**: This notebook includes code for the generation of the MBESv2 library. This includes the use of PEGG.base for the generation of "sensor" libraries, as well as filtration of the library and inclusion of control gRNAs. 
     - For information about generating base editing sensor libraries, please visit: [https://pegg.readthedocs.io](https://pegg.readthedocs.io/en/latest/)
     - For additional information about h2m (human2mouse), please visit: [https://h2m-public.readthedocs.io/en/latest/](https://h2m-public.readthedocs.io/en/latest/) or [https://human2mouse.com/](https://human2mouse.com/)
+- **editing_analysis.ipynb**: This notebook includes the code that was used to process crispresso editing information as well as generated maximum likelihood estimates of editing at each time-point.
 
 
 Datasets are organized into the following folders:
