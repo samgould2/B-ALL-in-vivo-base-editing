@@ -14,7 +14,7 @@ Notebooks are organized by figures, with main figures split into separate Jupyte
 - **Extended Data Figures**: extended_figures.ipynb
 - **Supplementary Figures**: supplementary_figures.ipynb
 
-There are two additional jupyter notebooks present in this repository. 
+There are three additional jupyter notebooks present in this repository. 
 - **empirical_FDR_LFC.ipynb**: This notebook includes the code for processing of raw gRNA count dataframes to generate LFC tables, as well as compute non-parametric empirical p-values and FDR values for the various screening datasets in this project.
 - **MBESv2_library_generation.ipynb**: This notebook includes code for the generation of the MBESv2 library. This includes the use of PEGG.base for the generation of "sensor" libraries, as well as filtration of the library and inclusion of control gRNAs. 
     - For information about generating base editing sensor libraries, please visit: [https://pegg.readthedocs.io](https://pegg.readthedocs.io/en/latest/)
